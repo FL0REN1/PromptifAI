@@ -311,7 +311,7 @@ export default function SupportChatWindow() {
           </main>
         }
         {msgWithoutRoom &&
-          <main className={clickForClassname ? "container logIn-container chatContainer updateContainer flex" : "container logIn-container column flex"}>
+          <main className={clickForClassname ? "container logIn-container column flex" : "container logIn-container column flex"}>
             <h2 className="title-reset title-msg-section">Choose your topic</h2>
             <div className="topic-msg-section flex">
               <button className={replPurchaseMsgWRoom ? "logIn-content__button button-reset criteria-btn active-btn" : "logIn-content__button button-reset criteria-btn"} onClick={() => replPurchaseMsgWRoomHandler()}>Replenishment/Purchase</button>
