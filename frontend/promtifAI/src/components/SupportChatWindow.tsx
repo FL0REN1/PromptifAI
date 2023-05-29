@@ -46,8 +46,8 @@ export default function SupportChatWindow() {
   };
   useEffect(() => {
     fetchData();
-    // const interval = setInterval(fetchData, 30000);
-    // return () => clearInterval(interval);
+    const interval = setInterval(fetchData, 30000);
+    return () => clearInterval(interval);
   }, []);
   useEffect(() => {
     const problemsWithReplenishmentPurchase = usersRoomTrue.filter(
