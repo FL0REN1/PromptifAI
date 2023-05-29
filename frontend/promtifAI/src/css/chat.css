@@ -1,0 +1,177 @@
+.chat-app {
+    position: relative;
+    width: 70vh;
+}
+
+.chat-app-update {
+    position: relative;
+}
+
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #f8f8f8;
+    z-index: -1;
+}
+
+.chat-container {
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.newContainer {
+    height: initial;
+    width: 70vh;
+}
+
+.room-title {
+    margin: 0;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.rsc-ts-bubble {
+    word-wrap: break-word;
+}
+
+.rsc-os-option-element {
+    cursor: pointer;
+}
+
+.message-list {
+    overflow: auto;
+    max-height: 50vh;
+    height: 50vh;
+    margin-bottom: 20px;
+}
+
+.message {
+    display: flex;
+    padding: 10px;
+    border-radius: 5px;
+    flex-direction: column;
+    opacity: 0;
+    animation-name: fade-in;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+.dialog-initiator {
+    background-color: rgb(132, 192, 231);
+}
+
+.other-user {
+    background-color: #f2f2f2;
+}
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.message:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.user {
+    font-weight: bold;
+}
+
+.text {
+    margin-top: 5px;
+}
+
+.createdAt {
+    font-size: 12px;
+    color: #888888;
+}
+
+.new-message-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.new-message-input {
+    transition: border-color .2s ease-in-out;
+    outline: 0;
+    margin-right: 5px;
+    flex-grow: 1;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+.close-appeal-button {
+    padding: 10px 20px;
+    background-color: #e53935;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.close-appeal-button:hover {
+    background-color: #c62828;
+}
+
+.open-appeal-button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.open-appeal-button:hover {
+    background-color: #469948;
+}
+
+.send-button {
+    transition: background-color .2s ease-in-out;
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.send-button:hover {
+    background-color: #45a049;
+}
+
+.new-message-input-active {
+    transition: border-color .2s ease-in-out, box-shadow .2s ease-in-out;
+}
+
+.new-message-input:hover {
+    border-color: #6fb5dc;
+}
+
+.new-message-input:focus {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}

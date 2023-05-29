@@ -1,0 +1,13 @@
+@media (max-width: 850px) {
+    .chat-app,
+    .newContainer {
+        width: 50vh;
+    }
+}
+
+@media (max-width: 670px) {
+    .chat-app,
+    .newContainer {
+        width: 40vh;
+    }
+}

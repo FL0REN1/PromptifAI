@@ -1,0 +1,116 @@
+.left-section {
+    padding-left: 20px;
+    width: 50%;
+    float: left;
+    margin-right: 50px;
+}
+
+.right-section {
+    padding-right: 20px;
+    width: 50%;
+    float: right;
+}
+
+.updateContainer {
+    flex-direction: column;
+    height: inherit;
+    padding: 20px;
+}
+
+.topic-msg-section {
+    padding: 0 10px;
+    flex-wrap: wrap;
+}
+
+.title-msg-section {
+    font: 600 30px/20px 'Montserrat';
+    margin-bottom: 30px;
+}
+
+.criteria-btns {
+    flex-direction: column;
+}
+
+.criteria-btn {
+    padding: 10px;
+}
+
+.criteria-btn:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.changeBody {
+    min-width: 600px;
+}
+
+.room-paragraph-update {
+    color: gainsboro;
+    margin-bottom: 20px;
+}
+
+.room-button-update {
+    width: 100%;
+}
+
+/* user-list */
+
+.user-list {
+    overflow: auto;
+    background-color: #f2f2f2;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.chatContainer {
+    height: initial;
+}
+
+.leftSection {
+    margin-right: 10px;
+}
+
+.active-btn {
+    outline: 0;
+    background-color: #6fb5dc;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.room-title-update {
+    word-break: break-word;
+    text-align: initial;
+}
+
+.radius {
+    border-radius: 10px;
+}
+
+.user-list__title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.user-list__items {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.user-list__item {
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.user-list__item:hover {
+    background-color: #f9f9f9;
+}
+
+.paddingNone {
+    padding: 0;
+    border-radius: 0;
+}

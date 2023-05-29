@@ -1,0 +1,39 @@
+@media (max-width: 1115px) {
+    .number {
+        font-size: 200px;
+    }
+
+    .number span {
+        display: block;
+    }
+}
+
+@media (max-width: 760px) {
+    .number {
+        font-size: 150px;
+    }
+
+    .number span {
+        display: block;
+    }
+}
+
+@media (max-width: 580px) {
+    .number {
+        font-size: 100px;
+    }
+
+    .number span {
+        display: block;
+    }
+}
+
+@media (max-width: 400px) {
+    .number {
+        font-size: 80px;
+    }
+
+    .number span {
+        display: block;
+    }
+}

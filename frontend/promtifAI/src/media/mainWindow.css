@@ -1,0 +1,473 @@
+#root {
+    --white_color: #fff;
+    --black-color: #000;
+    --gray-color: #e4e4e4;
+    --green-color: #65d330;
+}
+
+@media (max-width: 1060px) {
+    .burger__menu {
+        display: block;
+    }
+
+    .burger__item {
+        margin-bottom: 30px;
+    }
+
+    .burger__content {
+        border-radius: 0;
+    }
+
+    .burger__link {
+        line-height: 50px;
+        color: var(--black-color);
+    }
+
+    .burger__background {
+        filter: brightness(80%);
+    }
+
+    .header__list {
+        display: none;
+    }
+
+    #react-burger-menu-btn {
+        left: 90px !important;
+        top: 55px !important;
+        width: 48px !important;
+        height: 48px !important;
+    }
+}
+
+@media (max-width: 1024px) {
+
+    .background__products {
+        background-position: 235px;
+        background-image: url('../../public/mainWindow/main__fireSmaller.svg');
+    }
+
+    .products__title {
+        font-size: 30px;
+    }
+
+    .products__title-update {
+        font-size: 25px;
+    }
+
+    .products__button {
+        font-size: 18px;
+    }
+
+    .products__buyBtn {
+        padding: 10px 10%;
+    }
+
+    .products__buySection {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .elipse__paragraph {
+        font-size: 20px;
+        line-height: 25px;
+    }
+}
+
+@media (max-width: 920px) {
+    .products__content {
+        width: 70%;
+    }
+
+    .products__Tabs {
+        display: none;
+    }
+
+    .tabs--update {
+        display: block;
+    }
+
+    .css-b62m3t-container {
+        margin-bottom: 20px;
+    }
+
+    .products__buyBtn {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .products__buySection {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 900px) {
+    .contacts__input {
+        padding: 15px 0px 15px 10px;
+    }
+}
+
+@media (max-width: 870px) {
+    .about-us__sliderText {
+        left: 7%;
+    }
+
+    .about-us__sliderText-update {
+        left: 25%;
+    }
+
+    .about-us__swiper {
+        width: 300px;
+        height: 370px;
+    }
+
+    .about-us__title {
+        font-size: 30px;
+        line-height: 25px;
+    }
+}
+
+@media (max-width: 800px) {
+    .about-us__paragraph {
+        font-size: 15px;
+    }
+
+    .slide__titleName {
+        font-size: 17px;
+    }
+
+    .slide__titleDescription {
+        font-size: 15px;
+    }
+
+    .slide__review {
+        font-size: 12px;
+    }
+
+    .slide__star {
+        width: 20px;
+    }
+
+    .tooltip--visible {
+        display: block;
+    }
+
+    .slide__title--visible {
+        display: none;
+    }
+}
+
+@media (max-width: 760px) {
+
+    .contacts__image {
+        width: 200px;
+    }
+
+    .contacts__title {
+        font-size: 18px;
+    }
+
+    .paragraph__ttitle {
+        font-size: 13px;
+    }
+
+    .contacts__link {
+        font-size: 13px;
+    }
+
+    .contacts__input::placeholder {
+        font: 300 13px/20px 'Montserrat';
+        color: var(--white_color);
+    }
+}
+
+@media (max-width: 735px) {
+    .about-us__swiper {
+        width: 250px;
+        height: 320px;
+    }
+
+    .about-us__title {
+        font-size: 20px;
+        line-height: 17px;
+    }
+
+    .slider__paragraph {
+        font-size: 15px;
+        line-height: 23px;
+    }
+}
+
+@media (max-width: 700px) {
+    .background__products {
+        background-position: 200px;
+    }
+
+    .products__title {
+        font-size: 25px;
+    }
+
+    .products__title-update {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 680px) {
+    .contacts__image {
+        display: none;
+    }
+
+    .contacts__title {
+        font-size: 15px;
+    }
+
+    .paragraph__ttitle {
+        font-size: 12px;
+    }
+
+    .contacts__link {
+        font-size: 12px;
+    }
+
+    .footer__btn-text {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 630px) {
+    .title-background {
+        background-image: url('/public/mainWindow/main__infoSmaller.svg');
+    }
+
+    .main__title-background {
+        background-image: url('/public/mainWindow/main__productsSmaller.svg');
+    }
+
+    .reviews__title-background {
+        background-image: url('/public/mainWindow/main__reviewsSmaller.svg');
+    }
+
+    .contacts__title-background {
+        background-image: url('/public/mainWindow/main__contactsSmaller.svg');
+    }
+
+    .slide__title-background {
+        margin-bottom: 30px;
+        padding-left: 60px;
+        background-image: url('../../public/mainWindow/main_avatar1.svg');
+    }
+
+    .slide__title-background2 {
+        background-image: url('../../public/mainWindow/main_avatar2.svg');
+    }
+    
+    .slide__title-background3 {
+        background-image: url('../../public/mainWindow/main_avatar3.svg');
+    }
+    
+    .slide__title-background4 {
+        background-image: url('../../public/mainWindow/main_avatar4.svg');
+    }
+    
+    .slide__title-background5 {
+        background-image: url('../../public/mainWindow/main_avatar5.svg');
+    }
+
+    .main__title {
+        padding-left: 40px;
+        font-size: 30px;
+    }
+
+    .swiperTwoSlide {
+        display: none;
+    }
+
+    .swiperOneSlide {
+        display: block;
+    }
+
+    .sliderWorlds {
+        height: 400px;
+    }
+
+    .slider__title {
+        font-size: 40px;
+        line-height: 55px;
+    }
+
+    .about-us__sliderText-update {
+        left: 24%;
+    }
+
+    .about-us__title {
+        font-size: 20px;
+        line-height: 17px;
+    }
+
+    .products__content {
+        width: 100%;
+    }
+
+    .background__products {
+        background-position: 160px;
+    }
+
+    .products__title {
+        font-size: 20px;
+        line-height: 20px;
+    }
+
+    .products__title-update {
+        font-size: 15px;
+    }
+
+    .products__paragraph {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 610px) {
+    .about-us__swiper {
+        width: 200px;
+        height: 250px;
+    }
+
+    .slider__paragraph {
+        font-size: 11px;
+        line-height: 15px;
+    }
+}
+
+@media (max-width: 490px) {
+    .about-us__swiper {
+        width: 160px;
+        height: 200px;
+    }
+
+    .about-us__title {
+        font-size: 16px;
+        line-height: 11px;
+    }
+
+    .about-us__sliderText {
+        top: 45%;
+        left: 0;
+    }
+
+    .about-us__sliderText-update {
+        left: 15%;
+    }
+}
+
+@media (max-width: 480px) {
+    .about-us__sliderText {
+        left: 0;
+    }
+
+    .about-us__sliderText-update {
+        left: 15%;
+    }
+
+    .contacts__input {
+        margin-right: 0;
+    }
+
+    .contacts__btn {
+        border-radius: 0 0 75px 75px;
+    }
+
+    .contacts__form {
+        flex-direction: column;
+    }
+
+    .sliderWorlds {
+        height: 290px;
+    }
+
+    .slider__title {
+        font-size: 30px;
+        line-height: 55px;
+    }
+
+    .about-us__title {
+        font-size: 15px;
+        line-height: 12px;
+    }
+
+    .slider__paragraph {
+        font-size: 12px;
+        line-height: 12px;
+    }
+
+    .about-us__sliderText {
+        top: 45%;
+    }
+}
+
+@media (max-width: 400px) {
+    .about-us__paragraph {
+        font-size: 12px;
+    }
+
+    .about-us__sliderText-update {
+        left: 12%;
+    }
+
+    .main__title {
+        font-size: 17px;
+    }
+
+    .about-us__swiper {
+        width: 135px;
+        height: 165px;
+    }
+
+    .sliderWorlds {
+        height: 240px;
+    }
+
+    .slider__title {
+        font-size: 20px;
+        line-height: 35px;
+    }
+
+    .about-us__title {
+        font-size: 16px;
+        line-height: 11px;
+    }
+}
+
+@media (max-width: 370px) {
+
+    .background__products {
+        background-position: 118px;
+        background-image: url('../../public/mainWindow/main__fireUltraSmaller.svg');
+    }
+
+    .products__title {
+        font-size: 15px;
+        line-height: 15px;
+    }
+
+    .products__title-update {
+        font-size: 12px;
+    }
+
+    .products__paragraph {
+        font-size: 10px;
+    }
+
+    .btn__text {
+        font-size: 10px;
+        line-height: 15px;
+    }
+
+    .elipse__paragraph {
+        font-size: 10px;
+        line-height: 15px;
+    }
+
+    .products__button {
+        font-size: 12px;
+    }
+}

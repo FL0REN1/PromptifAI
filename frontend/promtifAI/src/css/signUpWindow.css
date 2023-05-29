@@ -1,0 +1,240 @@
+#root {
+    --white_color: #fff;
+    --black-color: #000;
+    --gray-color: #e4e4e4;
+    --green-color: #65d330;
+    --attenrion-color: #ff8b8b;
+}
+
+.signUp-container {
+    height: 100vh;
+    padding: 0;
+    box-shadow: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.signUp-container__content {
+    width: 90%;
+    background: rgba(241, 241, 241, 0.88);
+    padding: 30px 0;
+    border-radius: 50px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.signUp-container__list {
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.elipse {
+    flex-direction: column;
+    margin-bottom: 0;
+}
+
+.elipse .elipse__image {
+    color: var(--white_color);
+    border: 5px solid rgba(0, 0, 0, 0.1);
+    position: initial;
+    transform: initial;
+}
+
+.elispe-active {
+    background: #7DC9F4;
+    border: 5px solid rgba(88, 144, 175, 0.5);
+}
+
+.signUp-container__elipse {
+    font: 500 20px/15px 'Montserrat';
+    justify-content: center;
+    align-items: center;
+}
+
+.signUp-container__item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.signUp-container__item:after {
+    content: "";
+    position: absolute;
+    width: 31px;
+    height: 2px;
+    background-color: rgba(0, 0, 0, 0.1);
+    top: 35px;
+    left: -31px;
+}
+
+.signUp-container__item:first-child:after {
+    display: none;
+}
+
+.signUp-container__item:last-child:after {
+    width: 30px;
+    left: -30px;
+}
+
+.signUp-container__paragraph {
+    color: rgba(0, 0, 0, 0.6);
+    font: 500 15px/15px 'Montserrat';
+}
+
+.personalInfo__title {
+    color: rgba(0, 0, 0, 0.6);
+    font: 500 20px/20px 'Montserrat';
+}
+
+.signUp-container__personalInfo {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.personalInfo__infoTitleImage {
+    margin-bottom: 30px;
+    align-items: center;
+}
+
+.personalInfo__path {
+    fill: rgba(0, 0, 0, 0.6);
+}
+
+.personalInfo__svg {
+    margin-right: 10px;
+}
+
+.personalInfo__form {
+    margin-bottom: 30px;
+    width: 40%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.personalInfo__btns {
+    width: 100%;
+    justify-content: space-between;
+}
+
+.personalInfo__button {
+    width: 40%;
+    margin-bottom: 0;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+.signUp-container__underLine {
+    margin-bottom: 30px;
+    justify-content: center;
+    border-bottom: 1px solid var(--black-color);
+}
+
+.signUp-container__under {
+    align-items: center;
+    justify-content: center;
+}
+
+.unActiveBtn {
+    transition: background-color .2s ease-in-out, box-shadow .2s ease-in-out;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.none {
+    display: none;
+}
+
+.personalInfo-card__flex {
+    flex-direction: column;
+    align-items: center;
+}
+
+.personalInfo-card {
+    padding: 5vh 10px 10px 10px;
+}
+
+.personalInfo-card-2 {
+    padding: 10vh 10px 10px 10px;
+}
+
+.personalInfo-card__title-2 {
+    color: #afea92;
+}
+
+.personalInfo-card__title {
+    margin-bottom: 20px;
+}
+
+.personalInfo-card__btn {
+    transition: background-color .2s ease-in-out, box-shadow .2s ease-in-out;
+    margin-bottom: 20px;
+}
+
+.personalInfo-card__btnYesNo {
+    color: var(--gray-color);
+    transition: background-color .2s ease-in-out, box-shadow .2s ease-in-out;
+}
+
+.inputStyle {
+    transition: border-color .2s ease-in-out;
+    outline: 0;
+    width: 3rem !important;
+    height: 3rem;
+    margin: 0 1rem;
+    font-size: 2rem;
+    border-radius: 4px;
+    border: 2px solid transparent;
+}
+
+.inputStyleDisabled,
+.inputStyleDisabled:hover,
+.inputStyleDisabled:focus {
+    border-color: #cdcdcd !important;
+}
+
+.otpInput {
+    margin-bottom: 20px;
+}
+
+.inputStyle:hover {
+    border-color: #7dc9f4;
+}
+
+.inputStyle:focus {
+    border-color: #7dc9f4;
+}
+
+.personalInfo-card__btn:last-child {
+    background-color: #7dc9f4;
+}
+
+.personalInfo-card__btnYesNo:nth-child(3n) {
+    background-color: #d84c6b;
+}
+
+.personalInfo-card__btnYesNo {
+    background-color: #7dc9f4;
+}
+
+.personalInfo-card__btn:last-child:hover {
+    background-color: #6fb5dc;
+}
+
+.personalInfo-card__btnYesNo:nth-child(3n):hover {
+    background-color: #c73253;
+}
+
+.personalInfo-card__btnYesNo:hover {
+    background-color: #6fb5dc;
+}
+
+.unActiveBtn:hover {
+    background-color: rgb(86 86 86 / 20%);
+}
+
+.elipse .activeCircle {
+    transition: background-color .2s ease-in-out;
+    background-color: #7dc9f4;
+}
+
+.elipse:hover .activeCircle {
+    background-color: #6fb5dc;
+}

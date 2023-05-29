@@ -1,0 +1,595 @@
+#root {
+    --white_color: #fff;
+    --black-color: #000;
+    --gray-color: #e4e4e4;
+    --green-color: #65d330;
+    --attenrion-color: #ff8b8b;
+}
+
+.fixed__container {
+    flex-direction: column;
+    padding: 40px 90px;
+    box-shadow: none;
+}
+
+.fixed-list {
+    border-radius: 40px 40px 0 0;
+    background: linear-gradient(180deg, #b4b9c6 0%, rgb(255 255 255 / 15%) 100%);
+    border-bottom: 5px solid rgba(0, 0, 0, 0.4);
+}
+
+.fixed-list__user {
+    padding: 50px 50px;
+    flex-direction: column;
+    align-items: center;
+    border-right: 5px solid rgba(0, 0, 0, 0.4);
+}
+
+.fixed-list__button {
+    width: 100%;
+    align-items: center;
+    padding: 30px;
+}
+
+.fixed-list__svgButton {
+    margin-right: 10px;
+}
+
+.fixed-list__avatar {
+    width: 300px;
+    height: 200px;
+    border-radius: 50px;
+    margin-bottom: 30px;
+}
+
+.fixed-list__title {
+    font: 600 20px/25px 'Montserrat';
+    margin-bottom: 15px;
+    color: #949494;
+}
+
+.fixed-list__balance {
+    font: 600 20px/25px 'Montserrat';
+}
+
+.fixed-list__title--update {
+    margin-bottom: 0;
+    font-size: 15px;
+}
+
+.fixed-list__button {
+    outline: 0;
+    font: 500 20px/25px 'Montserrat';
+    color: #949494;
+}
+
+.fixed-list__menu {
+    flex-grow: 1;
+}
+
+/* info */
+
+.content {
+    flex-direction: column;
+    padding: 40px;
+    height: 100%;
+    background: var(--white_color);
+    border-radius: 0 0 40px 40px;
+}
+
+.content__info {
+    padding: 30px;
+    height: 100%;
+    background: linear-gradient(180deg, #7DC9F4 0%, rgba(255, 255, 255, 0) 48.96%);
+    border-radius: 20px;
+}
+
+.fixed--background-info {
+    background-image: url('../../public/myCabinetWindow/myCabinet__security.svg');
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.content-info__personalInfo {
+    margin-bottom: 50px;
+    padding: 0 10px 10px 90px;
+    flex-direction: column;
+    align-items: baseline;
+}
+
+.content__title {
+    font: 600 25px/51px 'Montserrat';
+}
+
+.content__paragraph {
+    font: 400 15px/15px 'Montserrat';
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.content-info__formLeft,
+.content-info__formRight {
+    flex: 1;
+}
+
+.content-reviews__formLeft,
+.content-reviews__formRight {
+    flex: 1;
+}
+
+.content-info__form {
+    display: flex;
+}
+
+.content-info__formCenter {
+    display: none;
+}
+
+.content-reviews__formLeft {
+    flex-direction: column;
+    align-items: center;
+}
+
+.content-info__input {
+    font: 500 15px/15px 'Montserrat';
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    border: 3px solid #dbdbdb;
+    border-radius: 10px;
+}
+
+.content-info__formLeft {
+    margin-right: 20px;
+}
+
+.content-info__button {
+    outline: 0;
+    color: rgba(0, 0, 0, 0.5);
+    background-color: #dbdbdb;
+    border-radius: 10px;
+}
+
+.content-info__button {
+    font: 500 15px/15px 'Montserrat';
+    color: rgba(0, 0, 0, 0.5);
+    padding: 24px;
+    width: 100%;
+    text-align: center;
+}
+
+.content-info__button:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.content-info__input:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.react-tel-input .form-control {
+    font: 500 15px/15px 'Montserrat';
+    background: initial !important;
+    border: 3px solid #dbdbdb !important;
+    border-radius: 10px !important;
+    height: initial !important;
+    width: 100% !important;
+    outline: initial !important;
+    box-sizing: border-box;
+    padding: 16px;
+}
+
+.content-info__button-icon {
+    margin-right: 10px;
+}
+
+.content-info__button-text {
+    color: var(--black-color);
+}
+
+.react-tel-input {
+    margin-bottom: 17px;
+}
+
+.content-info__textArea {
+    resize: none;
+    height: initial;
+    padding: 22px;
+    margin-bottom: 14px !important;
+}
+
+.update-info-button {
+    align-items: center;
+    justify-content: center;
+}
+
+.update-save-button {
+    color: var(--white_color);
+    background-color: #7dc9f4;
+}
+
+.fixed-list__item:first-child {
+    border-radius: 0 40px 0 0;
+}
+
+.fixed-list__logOutButton {
+    background-color: #f1c5c5;
+}
+
+.fixed-list__textLogOutButton {
+    color: var(--black-color);
+}
+
+.none {
+    display: none;
+}
+
+.block {
+    display: block;
+}
+
+.content-info__selected-background {
+    background-color: var(--white_color);
+}
+
+.content-info__selected-text {
+    color: var(--black-color);
+}
+
+.content-info__selected-svg {
+    fill: #3d9edb;
+}
+
+.content-orders {
+    overflow: auto;
+    height: 60vh;
+    width: 100%;
+    margin-bottom: 20px;
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
+
+.conent-orders__list {
+    padding: 20px;
+}
+
+.content-orders__item {
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+    background: #bababa;
+    border-radius: 20px;
+}
+
+.content-orders__item:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.border-right {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    border-right: 1px solid var(--black-color);
+}
+
+.border-right:first-child {
+    width: 20%;
+}
+
+.content-orders__button {
+    outline: 0;
+    width: 50%;
+    height: 100%;
+}
+
+.content-orders__paragraph {
+    font-weight: 600;
+}
+
+.content-orders-btn {
+    outline: 0;
+    margin: 0 auto;
+    align-items: center;
+    padding: 20px;
+    background: rgba(136, 217, 98, 0.5);
+    border-radius: 40px;
+}
+
+.content-orders-btn__svg {
+    margin-right: 10px;
+}
+
+.content-orders-btn__text {
+    font: 500 20px/20px 'Montserrat';
+}
+
+.content-reviews {
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 40px;
+}
+
+.content-reviews__form {
+    flex-direction: column;
+    padding: 20px;
+}
+
+.content-reviews__review {
+    padding: 10px;
+    margin: 0 auto;
+    font: 500 15px/15px 'Montserrat';
+    padding: 10px 0 0 10px;
+    width: 85%;
+    border: 10px solid #dbdbdb;
+    border-radius: 20px;
+    outline: 0;
+    overflow: auto;
+    height: 20vh;
+    resize: none;
+}
+
+.content-reviews__userReview {
+    padding-left: 0 !important;
+    flex-direction: row !important;
+    align-items: center;
+}
+
+.content-orders__paypal {
+    padding: 5vh 10px 10px 10px;
+}
+
+.rodalButtons {
+    margin-bottom: 15px;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.star-container {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.content-reviews__svg {
+    margin-right: 5px;
+}
+
+.content-reviews__button {
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    background: #7dc9f4;
+    border-radius: 10px;
+}
+
+.content-reviews__result {
+    box-sizing: border-box;
+    height: 100%;
+    background-color: var(--white_color);
+    padding: 10px;
+    border: 10px solid #dbdbdb;
+    border-radius: 20px;
+}
+
+.content-reviews__background {
+    margin-bottom: 20px;
+    padding-left: 40px;
+    background-image: url('../../public/myCabinetWindow/myCabinet__ReviewsAvatar.svg');
+    flex-direction: column;
+}
+
+.content-reviews__reviewResult {
+    overflow: auto;
+    margin-bottom: 20px;
+    height: 15vh;
+}
+
+.content-reviews__title {
+    font: 500 17px/20px 'Montserrat';
+}
+
+.content-reviews__reviewResult {
+    word-wrap: break-word;
+}
+
+.content-reviews__paragraph {
+    color: #cacaca;
+    font: 500 15px/15px 'Montserrat';
+}
+
+.content-reviews__text {
+    font: 500 15px/15px 'Montserrat';
+}
+
+.fixed-list__svgSmaller {
+    display: none;
+}
+
+.content-orders__svgSmaller {
+    display: none;
+}
+
+.star-containerSmaller {
+    display: none;
+}
+
+/* effects */
+
+.content-info__input {
+    transition: box-shadow .2s ease-in-out, border .2s ease-in-out;
+}
+
+.form-control {
+    transition: box-shadow .2s ease-in-out, border .2s ease-in-out;
+}
+
+.content-reviews__text {
+    transition: color .2s ease-in-out;
+}
+
+.content-reviews__button {
+    outline: 0;
+    transition: background-color .2s ease-in-out;
+}
+
+.content-orders-btn {
+    transition: background-color .2s ease-in-out, box-shadow .2s ease-in-out;
+}
+
+.content-reviews__review {
+    transition: border-color .2s ease-in-out, box-shadow .2s ease-in-out;
+}
+
+.content-orders-btn__text {
+    transition: color .2s ease-in-out;
+}
+
+.content-orders__path {
+    transition: fill .2s ease-in-out;
+}
+
+.fixed-list__button {
+    transition: background-color .2s ease-in-out, border-radius 1s ease-in-out;
+}
+
+.fixed-list__item {
+    outline: 0;
+    transition: background-color .2s ease-in-out;
+}
+
+.fixed-list__logOutButton {
+    transition: background-color .2s ease-in-out;
+}
+
+.fixed-list__textButton {
+    transition: color .2s ease-in-out;
+}
+
+.fixed-list__pathButton,
+.content-reviews__path {
+    transition: fill .2s ease-in-out;
+}
+
+.fixed-list__LogOutBtn {
+    transition: background-color .2s ease-in-out;
+}
+
+.content-info__button {
+    transition: background-color .2s ease-in-out, box-shadow .2s ease-in-out;
+}
+
+.update-save-button {
+    transition: background-color .2s ease-in-out;
+}
+
+/* hover */
+
+.content-info__input:hover {
+    border: 3px solid #bababa;
+}
+
+.form-control:hover {
+    border: 3px solid #bababa !important;
+}
+
+.content-reviews__button:hover .content-reviews__text {
+    color: var(--white_color);
+}
+
+.content-reviews__button:hover .content-reviews__path {
+    fill: #0e92e0;
+}
+
+.content-reviews__button:hover {
+    background-color: #6ab8e5;
+}
+
+.fixed-list__item:hover {
+    background-color: var(--white_color);
+}
+
+.fixed-list__item:hover .fixed-list__pathButton {
+    fill: #3d9edb;
+}
+
+.fixed-list__item:hover .fixed-list__textButton {
+    color: var(--black-color);
+}
+
+.fixed-list__logOutButton:hover .fixed-list__pathButtonLogOut,
+.fixed-list__logOutButton:hover {
+    background-color: #e9b3b3;
+}
+
+.content-orders__button:hover .content-orders__path {
+    fill: var(--gray-color);
+}
+
+.content-orders-btn:hover {
+    background-color: rgb(136 217 98 / 70%);
+}
+
+.content-orders-btn:hover .content-orders-btn__text {
+    color: var(--white_color);
+}
+
+.content-info__button:hover {
+    background-color: #cdcdcd;
+}
+
+.update-save-button:hover {
+    background-color: #6cbcea;
+}
+
+.content-reviews__review:hover {
+    border-color: #cecece;
+}
+
+/* focus */
+
+.fixed-list__button:focus {
+    background-color: var(--gray-color);
+}
+
+.fixed-list__item:first-child .fixed-list__button:focus {
+    border-radius: 0 40px 0 0;
+    background-color: var(--gray-color);
+}
+
+.fixed-list__LogOutBtn:focus {
+    background-color: #d8b3b3;
+}
+
+.content-info__input:focus {
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.content-info__button:focus {
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.content-orders__button:focus .content-orders__path {
+    fill: #ddd;
+}
+
+.content-orders-btn:focus {
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.content-reviews__button:focus {
+    background-color: #6fbdea;
+}
+
+.content-reviews__review:focus {
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.activeInput {
+    border-color: #7dc9f4 !important;
+}
+
+.react-tel-input .activeInput {
+    border-color: #7dc9f4 !important;
+}

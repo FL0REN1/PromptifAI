@@ -1,0 +1,152 @@
+#root {
+    --white_color: #fff;
+    --black-color: #000;
+    --gray-color: #e4e4e4;
+    --green-color: #65d330;
+    --attenrion-color: #ff8b8b;
+}
+
+.logIn-container {
+    height: 100vh;
+    padding: 0;
+    box-shadow: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.logIn-content {
+    background: rgba(241, 241, 241, 0.88);
+    padding: 30px 0;
+    border-radius: 50px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.logIn-content__title {
+    margin-bottom: 30px;
+}
+
+.logIn-content__input {
+    width: 100%;
+    box-sizing: border-box;
+    font: 500 15px/15px 'Montserrat';
+    padding: 20px;
+    border: 3px solid rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+
+.logIn-content__button {
+    font: 500 15px/15px 'Montserrat';
+    width: 100%;
+    padding: 20px;
+    background-color: #7dc9f4;
+    color: var(--white_color);
+    box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+
+.logIn-content__form {
+    width: 40%;
+    margin-bottom: 30px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logIn-content__twoItems {
+    width: 100%;
+    justify-content: space-between;
+}
+
+.logIn-content__underLine {
+    width: 90vw;
+    margin-bottom: 30px;
+    justify-content: center;
+    border-bottom: 1px solid var(--black-color);
+}
+
+.logIn-content__under {
+    align-items: center;
+}
+
+.logIn-content__paragraph {
+    margin-right: 10px;
+}
+
+.logIn-content__label {
+    font: 500 15px/20px 'Montserrat';
+}
+
+.logIn-content__link {
+    color: #7dc9f4;
+    font: 400 15px/20px 'Montserrat';
+}
+
+.logIn-content__paragraph {
+    font: 500 15px/20px 'Montserrat';
+}
+
+.logIn-content-card {
+    padding: 10vh 10px 10px 10px !important;
+}
+
+/* effects */
+
+.logIn-content__input {
+    transition: border-color .2s ease-in-out, box-shadow .2s ease-in-out;
+}
+
+.logIn-content__button {
+    transition: background-color .2s ease-in-out, box-shadow .2s ease-in-out;
+}
+
+.logIn-content__checkbox {
+    outline: 1px solid transparent;
+    transition: outline-color .2s ease-in-out;
+}
+
+.logIn-content__link {
+    transition: color .2s ease-in-out, box-shadow .2s ease-in-out;
+}
+
+/* hover */
+
+.logIn-content__input:hover {
+    border-color: rgb(0 0 0 / 20%);
+}
+
+.logIn-content__button:hover {
+    background-color: #6fb5dc;
+}
+
+.logIn-content__link:hover {
+    color: #6fb5dc;
+}
+
+/* focus */
+
+.logIn-content__input:focus {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.logIn-content__button:focus {
+    outline: 0;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.logIn-content__checkbox:focus {
+    outline-color: #6fb5dc;
+}
+
+.logIn-content__link:focus {
+    outline: 0;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+/* active */
+
+.logIn-content__inputActive {
+    border-color: #7dc9f4 !important;
+}

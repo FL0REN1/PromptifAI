@@ -1,0 +1,11 @@
+.loaderWindow {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loaderWindowUpdate {
+    height: 70vh;
+    width: 70vh;
+}
